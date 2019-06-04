@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 console.log("WéKKx");
-var prefix = "V";
+var prefix = "%";
 client.on("message", message => {
 
             if (message.content.startsWith(prefix + "la")) {
@@ -23,7 +23,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : black ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`Vbc WéKKx BOT `,"http://twitch.tv/Death Shop")
+client.user.setGame(`%bc`,"http://twitch.tv/Death Shop")
 client.user.setStatus("dnd")
 });
 
